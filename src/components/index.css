@@ -1,0 +1,50 @@
+html,body{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  display: flex;
+  width:100%;
+  flex-direction: row;
+  margin-left:200px;
+  margin-bottom: 100px;
+}
+.thepage{
+  height: 100%;
+  background-color: black;
+}
+.titles{
+  color:white;
+}
+.removebut{
+  color: black;
+  background-color: gray;
+  visibility: hidden;
+  display: block;
+  color: white;
+}
+.mylistitem{
+  margin: 10px;
+}
+.mylistitem:hover .removebut {
+  visibility: visible;
+  display: block;
+}
+.addButton{
+  color: black;
+  background-color: gray;
+  visibility: hidden;
+  display: block;
+  color: white;
+}
+.recomList:hover .addButton{
+  visibility: visible;
+  display: block;
+}
+
+.recomList{
+  margin: 10px;
+}
+.rowTitle{
+  color:white;
+}
